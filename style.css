@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(97, 255, 97, 0.249);
+}
+/* MAIN SECTION CSS STARTS HERE  */
+.main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.582)),url(images/wallpaper.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+}
+
+.header nav{
+    font-size: 20px;
+    margin-left: 800px;
+    display: flex;
+    gap: 2rem;
+    width: 30%;
+}
+
+.header nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.header nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.header h6{
+    margin-left: 30px;
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.header h6 a{
+    text-decoration: none;
+}
+
+.header span{
+    color: red;
+}
+
+.main h2{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+    text-transform: capitalize;
+}
+
+.main p{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+/* MAIN SECTION CSS ENDS HERE  */
+
+/* ABOUT SECTION CSS STARTS HERE  */
+.about{
+    padding-top: 50px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 75, 0);
+}
+
+.about p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about .btn{
+    background: rgb(0, 75, 0);
+    padding: 10px;
+    color: white;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.about .btn:hover{
+    background-color: rgb(0, 166, 0);
+}
+
+/* ABOUT SECTION CSS ENDS HERE  */
