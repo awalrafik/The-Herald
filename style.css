@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #14950042;
+}
+
+a {
+    outline: 0;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/wallpaper.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 0.2% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 200px;
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #6ac118;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #6ac118;
+    background: rgb(0, 166, 0);
+    transition: 1s;
+}
+
+nav .fa-solid{
+    display: none;
+}
+/* MAIN SECTION CSS ENDS HERE  */
+
+/* ABOUT SECTION CSS STARTS HERE  */
+.about{
+    padding-top: 50px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 75, 0);
+}
+
+.about p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.btn{
+    background: rgb(0, 75, 0);
+    padding: 10px;
+    color: white;
+    width: 200px;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about .btn:hover{
+    background-color: rgb(0, 166, 0);
+}
+
+/* ABOUT SECTION CSS ENDS HERE  */
+
+
+/* EDUCATION SECTION CSS ENDS HERE  */
+.education{
+    padding-top: 50px;
+    padding: 15px;
+    padding-bottom: 50px;
+    background: white;
+}
+
+.education h2{
+    font-size: 40px;
+    text-align: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-col{
+    flex-basis: 50%;
+    background: #14950069;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.edu-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.edu-col p{
+    font-size: 15px;
+}
+
+.edu-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.edu-col img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* EDUCATION SECTION CSS ENDS HERE  */
+
+/* SUPPORT SECTION CSS STARTS HERE  */
+.support{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/T&L\ of\ Quran.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.support h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 50px;
+}
+
+/* SUPPORT SECTION CSS ENDS HERE  */
+
+/* footer SECTION CSS startS HERE  */
+footer{
+    width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(rgba(8, 158, 0, 0.71),rgba(59, 211, 51, 0.71));
+    color: #fff;
+    padding: 30px 0 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.social-icons .fa{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+ .haq{
+    color: #fff;
+    margin: 0px;
+    padding-top: 10px;
+ }
+
+ hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #f9f9f9;
+    margin: 20px auto;
+ }
+
+/* footer SECTION CSS endS HERE  */
+
+
+/* MOBILE RESPONSIVE CSS STARTS HERE  */
+
+@media (max-width: 700px) {
+
+    /* main section mobile responsive starts */
+   .header{
+        min-height: 100vh;
+        width: 100%;
+    }
+    nav img{
+        height: 150px;
+        width: 150px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .hero-btn{
+        font-size: 15px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: rgb(0, 75, 0);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa-solid{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        background: transparent;
+        border-color: rgb(204, 189, 189);
+        border-width: 1px;
+    }
+
+    .nav-links ul{
+        padding: 30px;
+    }
+    /* main section mobile responsive ends */
+
+    /* about section mobile responsive starts */
+    
+    .about h2{
+    font-size: 30px;
+    }
+
+    .about p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .btn{
+        font-size: 15px;
+    }
+    /* about section mobile responsive ends */
+
+    /* Education section mobile responsive starts */
+    .education h2{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .row{
+            flex-direction: column;
+        }
+    /* Education section mobile responsive ends */
+
+    /* support section mobile responsive starts */
+
+    .support h1{
+        font-size: 22px;
+    }
+
+    /* support section mobile responsive starts */
+
+    /* footer SECTION CSS startS HERE  */
+    
+    footer{
+        font-size: 12px;
+        padding: 20px 0 20px;
+        line-height: 5px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+    }
+
+    /* footer SECTION CSS ENDS HERE  */
+
+
+}
+/* MOBILE RESPONSIVE CSS ENDS HERE  */

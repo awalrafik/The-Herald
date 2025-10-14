@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a202a393c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Herald online</title>
+</head>
+<body>
+    <!-- MAIN SECTION STARTS HERE  -->
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="images/herald_logo.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+        </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>WELCOME TO THE HERALD</h1>
+            <p>"Abode of Islam and Tech"</p>
+            <a href="about.html" class="hero-btn">Explore More</a>
+        </div>
+    </section>
+    <!-- MAIN SECTION ENDS HERE  -->
+     
+    <!-- ABOUT SECTION STARTS HERE  -->
+     <section class="about">
+        <h2>About the Herald</h2>
+        <p>
+            <b>The Herald</b> was founded by a group of young Muslim developers known as <b><em>Al Yaqeen Developers (Al Yaqeen Devs)</em></b>. United by a shared vision, they created this platform to promote authentic Islamic knowledge and empower the Muslim youth with modern technology. <b>The Herald</b> serves as a medium for sharing valuable Islamic teachings and contemporary information technology insights. Our goal is to inspire, educate, and connect the community, fostering personal growth and leadership through faith and innovation. Join us as we build a future where Islamic values and technological advancement go hand in hand.
+        </p>
+        <center><a href="about.html"><button class="btn">More Info</button></a></center>
+     </section>
+    <!-- ABOUT SECTION STARTS HERE  -->
+
+    <!-- EDUCATION SECTION STARTS HERE  -->
+    <section class="education">
+        <h2>Education And Training</h2>
+        <div class="row">
+            <div class="edu-col">
+                <h3>Qura'n</h3>
+                <p style="padding-bottom: 15px;">
+                    At The Herald, our Qur’an studies program offers comprehensive learning in mujawwada (beautiful recitation), hifz (memorization), tajweed (correct pronunciation), and tafseer (meaning and interpretation). We empower students to connect deeply with the Qur’an, nurturing faith, personal growth, and leadership through authentic understanding and practice. Join us in building a community rooted in the wisdom and guidance of the Holy Qur’an.</p>
+                <img src="images/T&L of Quran.jpg">
+            </div>
+            
+            <div class="edu-col">
+                <h3>Islamic knowledge</h3>
+                <p style="padding-bottom: 15px;">
+                    At The Herald, our Islamic knowledge program encompasses aqeedah (creed), hadith (Prophetic traditions), fiqh (jurisprudence), luggah (Arabic language), and taarikh (history). We guide learners to understand and apply authentic Islamic principles, fostering personal growth, faith, and leadership. Join us in building a community enriched by the depth and diversity of Islamic scholarship and tradition. </p>
+                <img src="images/islamic-studies.jpg">
+            </div>
+
+            <div class="edu-col">
+                <h3>Infotech</h3>
+                <p style="padding-bottom: 15px;" >
+                At The Herald, our Infotech program covers essential skills in basic computing, networking, hardware, and software development. We empower learners to navigate and innovate in the digital world, fostering technical proficiency, creativity, and problem-solving. Join us to build a community of tech-savvy individuals ready to lead and contribute to the advancement of modern technology.
+                </p>
+                <img src="images/it and tech.jpeg">
+            </div>
+        </div>
+        <center><a href="education.html"><button class="btn">More Info</button></a></center>
+    </section>
+    <!-- EDUCATION SECTION ENDS HERE  -->
+
+    <!-- SUPPORT SECTION STARTS HERE  -->
+
+    <section class="support">
+        <h1>To Support This Project</h1>
+        <a href="contact.html" class="hero-btn">Contact Us!</a>
+    </section>
+
+    <!-- SUPPORT SECTION ENDS HERE  -->    
+
+    <footer>
+        <center>
+            <div class="social-icons">
+                <a href="" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://wa.me/233555819004" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                <!-- <a href=""<i class="fa fa-linkedin" target="_blank"></i></a>  -->
+                <i class="fa fa-phone"><a href="tel:233555819004" target="_blank"></a></i>
+            </div>
+        </center>
+            <hr>
+        <center>
+            <p class="haq">Powered by Haqqul Yakeen IT Solutions || &copy; All rights reserved</p>
+        </center>
+    </footer>
+
+    <!-- JAVASCRIPT STARTS  -->
+     <script>
+       var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+    <!-- JAVASCRIPT ENDS  -->
+</body>
+</html>
